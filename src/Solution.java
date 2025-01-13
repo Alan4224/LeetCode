@@ -15,10 +15,15 @@ public class Solution {
         // }
         // // End L88
 
-        // L27
-        int[] nums = { 3, 2, 2, 3 };
-        int val = 3;
-        System.out.println(L27.removeElement(nums, val));
-        // End L27
+        // // L27
+        // int[] nums = { 3, 2, 2, 3 };
+        // int val = 3;
+        // System.out.println(L27.removeElement(nums, val));
+        // // End L27
+
+        // L26
+        int[] nums = { 1, 1, 2 };
+        System.out.println(L26.removeDuplicates(nums));
+        // End L26
     }
 }
