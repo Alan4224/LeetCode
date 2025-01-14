@@ -21,9 +21,14 @@ public class Solution {
         // System.out.println(L27.removeElement(nums, val));
         // // End L27
 
-        // L26
-        int[] nums = { 1, 1, 2 };
-        System.out.println(L26.removeDuplicates(nums));
-        // End L26
+        // // L26
+        // int[] nums = { 1, 1, 2 };
+        // System.out.println(L26.removeDuplicates(nums));
+        // // End L26
+
+        // L80
+        int[] nums = { 1, 1, 1, 2, 2, 3 };
+        System.out.println(L80.removeDuplicates(nums));
+        // End L80
     }
 }
