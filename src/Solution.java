@@ -26,9 +26,15 @@ public class Solution {
         // System.out.println(L26.removeDuplicates(nums));
         // // End L26
 
-        // L80
-        int[] nums = { 1, 1, 1, 2, 2, 3 };
-        System.out.println(L80.removeDuplicates(nums));
-        // End L80
+        // // L80
+        // int[] nums = { 1, 1, 1, 2, 2, 3 };
+        // System.out.println(L80.removeDuplicates(nums));
+        // // End L80
+
+        // L1071
+        String str1 = "ABCABC";
+        String str2 = "ABC";
+        System.out.println(L1071.gcdOfStrings(str1, str2));
+        // End L1071
     }
 }
