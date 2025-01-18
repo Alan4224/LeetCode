@@ -37,13 +37,18 @@ public class Solution {
         // System.out.println(L1071.gcdOfStrings(str1, str2));
         // // End L1071
 
-        // L189
-        int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
-        int k = 3;
-        L189.rotate(nums, k);
-        for (int i : nums) {
-            System.out.println(i);
-        }
-        // End L189
+        // // L189
+        // int[] nums = { 1, 2, 3, 4, 5, 6, 7 };
+        // int k = 3;
+        // L189.rotate(nums, k);
+        // for (int i : nums) {
+        // System.out.println(i);
+        // }
+        // // End L189
+
+        // L121
+        int[] prices = { 7, 1, 5, 3, 6, 4 };
+        System.out.println(L121.maxProfit(prices));
+        // End L121
     }
 }
