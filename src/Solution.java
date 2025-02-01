@@ -46,9 +46,14 @@ public class Solution {
         // }
         // // End L189
 
-        // L121
-        int[] prices = { 7, 1, 5, 3, 6, 4 };
-        System.out.println(L121.maxProfit(prices));
-        // End L121
+        // // L121
+        // int[] prices = { 7, 1, 5, 3, 6, 4 };
+        // System.out.println(L121.maxProfit(prices));
+        // // End L121
+
+        // // L55
+        // int[] nums = { 3, 2, 1, 0, 4 };
+        // System.out.println(L55.canJump(nums));
+        // // End L55
     }
 }
