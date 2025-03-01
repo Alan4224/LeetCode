@@ -1,5 +1,31 @@
+import java.util.List;
+
+import sliding_window.L643;
+import two_pointers.L15;
+import two_pointers.L167;
+
 public class Solution {
     public static void main(String[] args) throws Exception {
+        // L15
+        int[] nums = { -1, 0, 1, 2, -1, -4, -2, -3, 3, 0, 4 };
+        List<List<Integer>> result = L15.threeSum(nums);
+        for (List<Integer> list : result) {
+            for (Integer num : list) {
+                System.out.print(num + " ");
+            }
+            System.out.println();
+        }
+        // End L15
+
+        // // L167
+        // int[] numbers = { -1, 0 };
+        // int target = -1;
+        // int[] result = L167.twoSum(numbers, target);
+        // for (int i = 0; i < 2; i++) {
+        // System.out.println(result[i]);
+        // }
+        // // End L167
+
         // //L13
         // System.out.println(L13.romanToInt("MCMXCIV"));
         // //End L13
@@ -55,5 +81,11 @@ public class Solution {
         // int[] nums = { 3, 2, 1, 0, 4 };
         // System.out.println(L55.canJump(nums));
         // // End L55
+
+        // // L643
+        // int[] nums = { 1, 12, -5, -6, 50, 3 };
+        // int k = 4;
+        // System.out.println(L643.findMaxAverage(nums, k));
+        // // End L643
     }
 }
